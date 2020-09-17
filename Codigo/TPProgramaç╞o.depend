@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1559508384 source:c:\users\daniel\desktop\tpprogramação\carro.c
+	<stdio.h>
+	<stdlib.h>
+	"Carro.h"
+
+1558644398 c:\users\daniel\desktop\tpprogramação\carro.h
+
+1559508483 source:c:\users\daniel\desktop\tpprogramação\corrida.c
+	<stdio.h>
+	<stdlib.h>
+	"Corrida.h"
+	"Equipa.h"
+	"Volta.h"
+	"utils.h"
+
+1559504585 c:\users\daniel\desktop\tpprogramação\equipa.h
+	"Piloto.h"
+	"Carro.h"
+	"Volta.h"
+
+1559507586 c:\users\daniel\desktop\tpprogramação\piloto.h
+
+1559313620 c:\users\daniel\desktop\tpprogramação\volta.h
+
+1559504826 source:c:\users\daniel\desktop\tpprogramação\equipa.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Equipa.h"
+	"Volta.h"
+	"utils.h"
+
+1553614321 c:\users\daniel\desktop\tpprogramação\utils.h
+
+1559509359 source:c:\users\daniel\desktop\tpprogramação\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Piloto.h"
+	"Carro.h"
+	"Equipa.h"
+	"Corrida.h"
+	"Campeonato.h"
+
+1559441207 c:\users\daniel\desktop\tpprogramação\corrida.h
+	"Piloto.h"
+	"Carro.h"
+	"Equipa.h"
+
+1559151983 source:c:\users\daniel\desktop\tpprogramação\utils.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<limits.h>
+	"utils.h"
+
+1559501028 source:c:\users\daniel\desktop\tpprogramação\volta.c
+	<stdio.h>
+	<stdlib.h>
+	"Volta.h"
+
+1559508331 source:c:\users\daniel\desktop\tpprogramação\piloto.c
+	<stdio.h>
+	<stdlib.h>
+	"Piloto.h"
+
+1559512565 c:\users\daniel\desktop\tpprogramação\campeonato.h
+	"Carro.h"
+	"Piloto.h"
+	"Equipa.h"
+
+1559513463 source:c:\users\daniel\desktop\tpprogramação\campeonato.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Campeonato.h"
+	"Corrida.h"
+

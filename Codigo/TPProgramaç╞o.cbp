@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TPProgramação" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TPProgramação" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c99" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TPProgramação" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Campeonato.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Campeonato.h" />
+		<Unit filename="Carro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Carro.h" />
+		<Unit filename="Corrida.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Corrida.h" />
+		<Unit filename="Equipa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Equipa.h" />
+		<Unit filename="Piloto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Piloto.h" />
+		<Unit filename="Volta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Volta.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
